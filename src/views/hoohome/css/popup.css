@@ -1,0 +1,72 @@
+#pop_bg_img {
+    width: 5rem;
+    margin-left: -2.5rem;
+    margin-top: -2.9rem;
+    padding: 0 .3rem;
+    background: url('../image/mobile/pic3.png') no-repeat;
+    background-size: 100% 100%;
+}
+.pop_modal {
+    width: 6rem;
+    background: #ffffff;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-left: -3rem;
+    margin-top: -3.15rem;
+    padding: 0 .6rem;
+    z-index: 10000;
+}
+.bgBack {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(23,51,89,1);
+    opacity: 0.3;
+    width: 100%;
+    height: 100%;
+    z-index: 10000;
+}
+.pop_modal .pop_modal_close2 {
+    width: .26rem;
+    height: .26rem;
+    background: url('../image/mobile/cha.png') no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    right: .2rem;
+    top: .2rem;
+    z-index: 10000;
+}
+.invite_title {
+    font-size: .3rem;
+    color: #ffffff;
+    font-weight: bold;
+    text-align: center;
+    margin: .7rem auto .8rem  auto;
+}
+.invite_tips {
+    font-size: .24rem;
+    text-align: left;
+    line-height: .4rem;
+    margin-bottom: .5rem;
+    word-wrap: break-word;
+}
+.submit_problem {
+    border: 0;
+    height: .8rem;
+    width: 100%;
+    font-size: .28rem;
+    color: #ffffff;
+    line-height: .83rem;
+    margin-bottom: .4rem;
+    background: -webkit-gradient(linear,left top, right top,from(#62D7A5), to(#55C7AB));
+    background: linear-gradient(90deg,#62D7A5, #55C7AB);
+    box-shadow: 0.2rem 0 0.2rem rgba(166,166,166,0.1);
+}
+.submit_problem a{
+    color: #fff;
+    text-decoration: none;
+}
+.cur_p {
+    cursor: pointer;
+}
