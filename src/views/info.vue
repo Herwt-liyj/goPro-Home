@@ -40,8 +40,8 @@
 <script>
 const HOT_NEWS_URL = "/api/cms/news/recommend/ ";
 const OLD_NEWS_URL = "/api/cms/news/";
-const DEAULT_IMAGE = "../static_h5/images/info.png";
-const DEAULT_THUMB_IMAGE = "../static_h5/images/infoThumb.png";
+const DEAULT_IMAGE = "../static/images/info.png";
+const DEAULT_THUMB_IMAGE = "../static/images/infoThumb.png";
 
 export default {
   name: "Info",

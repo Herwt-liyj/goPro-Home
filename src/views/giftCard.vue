@@ -17,7 +17,7 @@
                 </div>
             </div>
             <div class="box_sh gift_dui border_r2 flex">
-                <div class="img_left"><img :src="userInfo.user_face ? userInfo.user_face : '../static_h5/images/headportrait.png'" alt=""></div>
+                <div class="img_left"><img :src="userInfo.user_face ? userInfo.user_face : '../static/images/headportrait.png'" alt=""></div>
                 <div class="img_right">
                     <p class="font_w user_nickname">{{userInfo.nickname}}</p>
                     <p class="user_title">{{title}}</p>

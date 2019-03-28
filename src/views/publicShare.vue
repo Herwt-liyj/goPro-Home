@@ -35,7 +35,7 @@
                     <div class="public_li box_sh border_r2" :class="{position_r:item.is_founder == 1}">
                         <p class="faqi position_a" v-if="item.is_founder == 1"></p>
                         <div class="content flex">
-                            <p><img :src="item.member_pic ? item.member_pic :'../static_h5/images/defaultImg.png'" alt=""></p>
+                            <p><img :src="item.member_pic ? item.member_pic :'../static/images/defaultImg.png'" alt=""></p>
                             <!-- 已确认加入 -->
                             <div class="content_center">
                                 <p>{{item.member_name}}</p>
@@ -61,7 +61,7 @@
                 </div>
                 <div class="public_li box_sh border_r2">
                     <div class="content flex">
-                        <p><img src="../../static_h5/images/defaultImg.png"></p>
+                        <p><img src="../../static/images/defaultImg.png"></p>
                         <div class="content_center">{{$t('publicShare.waitingJoin')}}</div>
                     </div>
                 </div>

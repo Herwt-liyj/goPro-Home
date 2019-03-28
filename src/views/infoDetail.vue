@@ -1,6 +1,6 @@
 <template>
     <div>
-        <img style='position: fixed;left: 100%;' src="../../static_h5/images/info.png" class="main-img">
+        <img style='position: fixed;left: 100%;' src="../../static/images/info.png" class="main-img">
         <div class="info_detail">
             <div class="info_detail_t font_b" v-wechat-title="$route.meta.title=infoDetail.title">{{infoDetail.title}}</div>
             <div class="info_detail_c">
@@ -26,7 +26,7 @@
 import dowloadTips from "../components/downloadTips";
 
 const INFO_DETAIL_URL = "/api/cms/news/detail/";
-const HEADER_IMG = "../../static_h5/images/headportrait.png";
+const HEADER_IMG = "../../static/images/headportrait.png";
 
 export default {
   name: "InfoDetail",

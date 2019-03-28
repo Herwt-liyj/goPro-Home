@@ -20,20 +20,20 @@ export default {
   },
   data() {
     return {
-      selectedLanguage: "../../static_h5/images/lang/zh-CN.png",
+      selectedLanguage: "../../static/images/lang/zh-CN.png",
       languageValue: "",
       languageList: [
         {
           value: "zh-CN",
-          imgPath: "../../static_h5/images/lang/zh-CN.png"
+          imgPath: "../../static/images/lang/zh-CN.png"
         },
         {
           value: "en-US",
-          imgPath: "../../static_h5/images/lang/en-US.png"
+          imgPath: "../../static/images/lang/en-US.png"
         },
         {
           value:'k-KOR',
-          imgPath:'../../static_h5/images/lang/k-KOR.png',
+          imgPath:'../../static/images/lang/k-KOR.png',
         }
       ],
       languageListShow: false
@@ -52,7 +52,7 @@ export default {
     }),
     changeLanguage(value) {
       this.languageListShow = false;
-      this.selectedLanguage = "../../static_h5/images/lang/" + value + ".png";
+      this.selectedLanguage = "../../static/images/lang/" + value + ".png";
       this.changeLocaleLang(value);
       this.$i18n.locale = value;
     },

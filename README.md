@@ -1,6 +1,6 @@
-# Mobile_h5
+# BD_Cooperation
 
-> Mobile_h5/ App mobile
+> BD_Cooperation/ App mobile
 
 ## Build Setup
 
@@ -17,6 +17,6 @@ npm run build
 # build for production and view the bundle analyzer report
 npm run build --report
 
-Mobile_h5 项目，嵌入APP端（ios/android）,使用vue前后分离
+BD_Cooperation 项目，嵌入APP端（ios/android）,使用vue前后分离
 
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).

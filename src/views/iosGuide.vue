@@ -3,8 +3,8 @@
         <!-- <div class="goback_btn" onclick="window.history.go(-1)">返回</div> -->
         <div class="main_add">
         </div>
-        <a class="ios_download_btn download_btn" href="itms-services://?action=download-manifest&url=https://m.hoo.com/static_h5/hoo.plist">{{$t('download.hooAppDownload')}}</a>
-        <a href="https://m.hoo.com/static_h5/MolyApp.mobileprovision" class="guide">{{$t('download.installDescFile')}}</a>
+        <a class="ios_download_btn download_btn" href="itms-services://?action=download-manifest&url=https://m.hoo.com/static/hoo.plist">{{$t('download.hooAppDownload')}}</a>
+        <a href="https://m.hoo.com/static/MolyApp.mobileprovision" class="guide">{{$t('download.installDescFile')}}</a>
     </div>
 </template>
 <script>
