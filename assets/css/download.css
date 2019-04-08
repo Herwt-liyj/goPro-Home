@@ -1,0 +1,86 @@
+html, body{
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+.download_bg{
+    background:url('../img/IPhoneX.png') no-repeat  0 .8rem;
+    background-size: 100%;
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    position: absolute;
+    bottom: 0;
+    left: .85rem;
+}
+.juxing{
+    width: 100%;
+    height: 5.82rem;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background:url('../img/juxing.png') no-repeat;
+    background-size: 100% 100%;
+    text-align: center;
+}
+.logo{
+    width: 1.7rem;
+    height: 1.38rem;
+    margin: 1.2rem auto 0;
+    background:url('../img/logo.png') no-repeat;
+    background-size: 100% 100%;
+}
+.download_btn{
+    display: block;
+    width: 4.8rem;
+    height: .76rem;
+    line-height: .76rem;
+    margin: .35rem auto;
+    font-size: .32rem;
+    color: #fff;
+    background:url("../img/ios.png") rgba(85,199,171,1) no-repeat .4rem .15rem;
+    background-size: 0.4rem 0.4rem;
+    border-radius: .2rem;
+    text-decoration: none;
+}
+.android_download_btn{
+    background-image: url("../img/android.png");
+}
+/*iphoneX*/
+@media only screen and (width: 375px) and (height: 812px){
+    .download_bg{
+        background-position: 0 2.8rem;
+    }
+    .juxing{
+        height: 6.9rem;
+    }
+}
+.pop_container{
+    position: fixed;  
+    top: 0;  
+    left: 0;  
+    right: 0;  
+    bottom: 0;  
+    background: rgba(18,39,68,1);
+    opacity:0.8;
+}
+.pop_guidesafari{
+    height: 3rem;
+    width: 6.38rem;
+    background: url('../img/bg_safari_ios.png') center no-repeat;
+    background-size: 100% 100%;
+    margin: .1rem .46rem 0 .66rem;  
+
+}
+.pop_guideandriod{
+    height: 3rem;
+    width: 6.38rem;
+    background: url('../img/bg_andriod.png') center no-repeat;
+    background-size: 100% 100%;
+    margin: .1rem .46rem 0 .66rem;  
+
+}
+.download-wrap {
+    padding-top: .6rem;
+}

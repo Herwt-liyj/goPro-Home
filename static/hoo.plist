@@ -19,7 +19,7 @@
             <key>needs-shine</key>
             <true/>
             <key>url</key>
-            <string><![CDATA[https://m.hoo.com/static_h5/images/180.jpg]]></string>
+            <string><![CDATA[https://m.hoo.com/static/images/180.jpg]]></string>
         </dict>
         <dict>
             <key>kind</key>
@@ -27,7 +27,7 @@
             <key>needs-shine</key>
             <false/>
             <key>url</key>
-            <string><![CDATA[https://m.hoo.com/static_h5/images/180.jpg]]></string>
+            <string><![CDATA[https://m.hoo.com/static/images/180.jpg]]></string>
         </dict>
       </array>
       <key>metadata</key>

@@ -23,7 +23,7 @@ module.exports = {
   context: path.resolve(__dirname, '../'),
   entry: {
     app: './src/main.js',
-    initIndex: './static_h5/js/initIndex.js'
+    initIndex: './static/js/initIndex.js'
   },
   output: {
     path: config.build.assetsRoot,
