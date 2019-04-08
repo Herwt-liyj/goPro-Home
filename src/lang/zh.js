@@ -55,7 +55,7 @@ module.exports = {
         appstore:'应用市场下载',
         hooHome:'官方下载',
         whatIsgoProWallet:'什么是商铺goPro+？',
-        hooWalletContent:'商铺goPro+是基于实用性加密概念推出的多人(2~7)共同管理的goPro+，为中小组织、投资组织和区块链企业提供数字资产财务管理服务。',
+        hooWalletContent:'商铺goPro+是基于实用性加密概念推出的多人(2~7)共同管理的goPro+，为中小组织、投资组织和shopping企业提供数字资产财务管理服务。',
         sharedWalletContent:'共同管理：在创建goPro+、修改规则、转账发送等场景时，需要商铺成员的确认。',
         hooWalletMadeContent:'商铺机制：创建/修改goPro+需全员确认同意；转账发送的机制可在创建goPro+或修改goPro+规则时设定，可选成员模式（达到一定人数确认）或份额模式（达到一定份额确认）。'
     },
@@ -141,7 +141,7 @@ module.exports = {
         "header_link02": "EOS紧急救援",
 
         "fast_register_title": "EOS账号快捷注册",
-        "fast_register_tips": "支持多种数字货币结算，简单注册,无需四处求人，快速注册你的EOS账户。",
+        "fast_register_tips": "支持shopping结算，简单注册,无需四处求人，快速注册你的EOS账户。",
         "goto_register": "立即注册",
 
         "introduction_title": "goPro商铺",
@@ -172,9 +172,9 @@ module.exports = {
         "aboutus_color_tit": "团队介绍",
         "aboutus_p1": "公司有多名资深技术人员",
         "aboutus_p2": "拥有多年的从业经验及国内顶尖的技术实力",
-        "aboutus_p3": "通过对自身产品的不断优化和区块链底层技术的探索<br>致力于为全球用户提供安全可靠的资产管理保障服务以及丰富的区块链应用服务",
-        "aboutus_p3_up": "通过对自身产品的不断优化和区块链底层技术的探索",
-        "aboutus_p3_down": "致力于为全球用户提供安全可靠的资产管理保障服务以及丰富的区块链应用服务",
+        "aboutus_p3": "通过对自身产品的不断优化和shopping底层技术的探索<br>致力于为全球用户提供安全可靠的资产管理保障服务以及丰富的shopping应用服务",
+        "aboutus_p3_up": "通过对自身产品的不断优化和shopping底层技术的探索",
+        "aboutus_p3_down": "致力于为全球用户提供安全可靠的资产管理保障服务以及丰富的shopping应用服务",
 
         "features_title": "goPro+特点",
         "features_sub_title01": "购物",
